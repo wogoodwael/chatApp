@@ -1,6 +1,6 @@
-import 'package:chat_app/core/constants/asset_images.dart';
-import 'package:chat_app/core/theme/style.dart';
-import 'package:chat_app/features/Auth/view/login.dart';
+
+import 'package:chat_app/features/Auth/presentation/view/login.dart';
+import 'package:chat_app/features/splash/presentation/view/widgets/splash_body.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -25,19 +25,8 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Image.asset(AssetImages.logo),
-          const SizedBox(
-            height: 20,
-          ),
-          Text(
-            splashText,
-            style: Style.textStyle24,
-          )
-        ],
-      ),
+      body: SplashBody(splashText: splashText),
     );
   }
 }
+
