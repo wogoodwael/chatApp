@@ -21,7 +21,7 @@ class SplashBody extends StatelessWidget {
         ),
         Text(
           splashText,
-          style: Style.textStyle24,
+          style: Styles.textStyle24,
         )
       ],
     );
