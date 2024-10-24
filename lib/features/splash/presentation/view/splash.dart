@@ -1,5 +1,5 @@
 
-import 'package:chat_app/features/Auth/presentation/view/login.dart';
+import 'package:chat_app/features/Auth/presentation/views/login_view.dart';
 import 'package:chat_app/features/splash/presentation/view/widgets/splash_body.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(
         const Duration(seconds: 3),
         () => Navigator.push(
-            context, MaterialPageRoute(builder: (_) => const LoginScreen())));
+            context, MaterialPageRoute(builder: (_) => const LoginView())));
   }
 
   @override
