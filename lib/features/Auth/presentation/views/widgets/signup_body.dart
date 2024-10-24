@@ -1,10 +1,10 @@
+import 'package:chat_app/features/Auth/presentation/views/login_view.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:chat_app/core/constants/asset_images.dart';
 import 'package:chat_app/core/shared_widgets/custom_button.dart';
 import 'package:chat_app/core/shared_widgets/dafault_text.dart';
 import 'package:chat_app/core/theme/style.dart';
-import 'package:chat_app/features/auth/presentation/views/login_view.dart';
 import 'package:chat_app/features/home/home.dart';
 
 class SignupBody extends StatefulWidget {
